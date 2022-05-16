@@ -7,7 +7,16 @@ This repository contains python libraries with functions to provide the followin
   c. The file has a size lower than 14*2^20
 3. Given a list of 0's and 1's, get the minimum permutations to be done so that the list ends fully interspersed
 
-Unit tests are provided as well. 
+Unit tests are provided as well using Pytest. 
+
+# How to setup
+No additional work is needed to use the functions. 
+
+To run the test cases it's required to install Pytest. 
+
+Pytest documentation and download available in: https://pypi.org/project/pytest/
+
+
 
 
 
