@@ -16,6 +16,7 @@ def find_repeated_value(vector1, vector2):
         raise ValueError("Vector 2 contains not integer values")
     for value1 in vector1:
         try:
+            vector2.index(value1)
             return value1
         except ValueError as e:
             continue
