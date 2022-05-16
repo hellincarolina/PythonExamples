@@ -21,8 +21,8 @@ def get_executable_file(directory_path):
             if os.path.isfile(full_path):
                 size = os.stat(full_path).st_size
                 executable_file = is_executable(full_path)
-                owner = os.stat(full_path).st_uid
-                if executable_file and owner == 0 and size < 14*2**20 and executable_file:
+                owner = os.stat(full_path).st_gid
+                if executable_file and owner == 0 and size < 14*2**20:
                     return full_path
         return None
     except NotADirectoryError as e:
