@@ -14,7 +14,7 @@ No additional work is needed to use the functions.
 
 To run the test cases it's required to install Pytest. 
 
-Pytest documentation and download available in: https://pypi.org/project/pytest/
+Pytest downloading and documentation available in: https://pypi.org/project/pytest/
 
 
 
