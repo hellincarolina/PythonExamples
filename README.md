@@ -12,9 +12,12 @@ Unit tests are provided as well using Pytest.
 # How to setup
 No additional work is needed to use the functions. 
 
+## Unit tests
 To run the test cases it's required to install Pytest. 
 
 Pytest downloading and documentation available in: https://pypi.org/project/pytest/
+
+It's required to create an empty directory name "emptydirectory" inside test_data directory in order to successfully run the unit tests. However, you can change the data to run the tests by replacing the directories/files with existing ones on your local machine.
 
 
 
