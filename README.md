@@ -17,7 +17,7 @@ To run the test cases it's required to install Pytest.
 
 Pytest downloading and documentation available in: https://pypi.org/project/pytest/
 
-It's required to create an empty directory name "emptydirectory" inside test_data directory in order to successfully run the unit tests. However, you can change the data to run the tests by replacing the directories/files with existing ones on your local machine.
+It's required to create an empty directory name "emptydirectory" inside test_data directory in order to successfully run the unit tests on test_find_file.py. However, you can change the data to run the tests by replacing the directories/files with existing ones on your local machine.
 
 
 
