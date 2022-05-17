@@ -10,6 +10,9 @@ This repository contains python libraries with functions to provide the followin
 Unit tests are provided as well using Pytest. 
 
 # How to setup
+## Requirements
+- Python 3.9.5 or above
+
 No additional work is needed to use the functions. 
 
 ## Unit tests
