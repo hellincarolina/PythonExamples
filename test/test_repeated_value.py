@@ -20,12 +20,6 @@ from find_repeated_value import find_repeated_value
     ([0b10], [0b10], 2),
 ])
 def test_get_first_repeated(vector1, vector2, expected_value):
-    """
-    Tests if the first repeated value returned by the function find_repeated_value matches with the expected result
-    :param vector1: list of integers
-    :param vector2: list of integers
-    :param expected_value: the first number repeated in both lists
-    """
     assert find_repeated_value(vector1, vector2) == expected_value
 
 
@@ -46,6 +40,6 @@ def test_invalid_data_type(value1, value2, expected_error):
     ("invalid vector", [1, 2, 3]),
     ([1, 2, 3], "invalid vector"),
 ])
-def test_no_vectors(value1, value2):
+def test_no_list_arguments(value1, value2):
     with pytest.raises(TypeError, match="Argument is not a list"):
         assert find_repeated_value(value1, value2)
